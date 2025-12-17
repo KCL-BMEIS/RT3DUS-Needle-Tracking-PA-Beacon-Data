@@ -1,0 +1,29 @@
+[project]
+name = "RT3DUS-Needle-Tracking-PA-Beacon-Data"
+version = "0.1.0"
+description = "Data and Python scripts for the creation of results figures for 'Real-time 3D Ultrasonic Needle Tracking with a Photoacoustic Beacon'"
+authors = [
+    { name = "Christian Baker", email = "christian.baker@kcl.ac.uk"},
+    { name = "Weidong Liang"},
+    { name = "Richard Colchester"},
+    { name = "Peng Lei"},
+    { name = "Francois Joubert"},
+    { name = "Sebastien Ourselin"},
+    { name = "Simeon West"},
+    { name = "Adrien Desjardins"},
+    { name = "Athanasios Diamantopoulos"},
+    { name = "Wenfeng Xia", email = "wenfeng.xia@kcl.ac.uk" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "openpyxl"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

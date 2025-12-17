@@ -7,5 +7,14 @@ Christian Baker<sup>1</sup>, Weidong Liang<sup>1</sup> , Richard Colchester<sup>
 <sup>2</sup>Medical Physics and Biomedical Engineering, University College London, London, WC1E 6BT, UK.  
 <sup>3</sup>3GBA Institute of Collaborative Innovation, Guangzhou, China.  
 <sup>4</sup>University College London Hospitals NHS Foundation Trust, London, NW1 2BU, UK.  
-<sup>5</sup>Guys and St Thomas’ NHS Trust, London, SE1 7EH, UK.  
+<sup>5</sup>Guys and St Thomas’ NHS Trust, London, SE1 7EH, UK.
+
+Data files and source code for each result figure in the paper can be found in the src directory.
+
+To recreate the figures:
+* Clone the repository
+* Navigate to the project directory
+* `pip install -e` in a Python 3.12 environment 
+* Install LaTeX and add it to your Python `os.environ['PATH']`
+* Run the individual scripts in `/src`
 
